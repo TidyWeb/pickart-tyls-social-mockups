@@ -350,21 +350,21 @@ ${framing}`
     };
 
     const posts = [
-      { subject: 'The Beatles', variant: 'Coffee shop', image: 'images/beatles-coffee-shop.webp', source: 'beatles-coffee-shop.png', caption: captions.beatles },
-      { subject: 'The Beatles', variant: 'Coffee shop, walnut frame', image: 'images/beatles-coffee-shop-walnut.webp', source: 'beatles-coffee-shop-walnut.png', caption: captions.beatles },
-      { subject: 'The Beatles', variant: 'Listening room', image: 'images/the-beatles-listening-room.webp', source: 'the-beatles-listening-room-test-01.png', caption: captions.beatles },
-      { subject: 'The Beatles', variant: 'Yoga room', image: 'images/the-beatles-yoga-dog.webp', source: 'the-beatles-yoga-dog.png', caption: captions.beatles },
-      { subject: 'The Beatles', variant: 'Yoga room, walnut box frame', image: 'images/beatles-yoga-dog-box-walnut.webp', source: 'beatles-yoga-dog-box-walnut.png', caption: captions.beatles },
-      { subject: 'The Beatles', variant: 'Rattan room', image: 'images/the-beatles-rattan-room.webp', source: 'the-beatles-yoga-rattan-cat-test-04-centered.png', caption: captions.beatles },
-      { subject: 'John Lennon', variant: 'Listening room', image: 'images/john-listening-room.webp', source: 'john-listening-room.png', caption: captions.john },
-      { subject: 'John Lennon', variant: 'Yoga room', image: 'images/john-yoga-dog.webp', source: 'john-yoga-dog.png', caption: captions.john },
-      { subject: 'Paul McCartney', variant: 'Original marketing room', image: 'images/paul-marketing-rework.webp', source: 'Paul Marketing Rework.png', caption: captions.paul },
-      { subject: 'Paul McCartney', variant: 'Modern art room', image: 'images/paul-modern-art-lovers.webp', source: 'paul-modern-art-lovers.png', caption: captions.paul },
-      { subject: 'Ringo Starr', variant: 'Approved room', image: 'images/ringo-approved-room.webp', source: 'Beatles_TYLS_Ringo_001_approved_image.png', caption: captions.ringo },
-      { subject: 'Paul McCartney and George Harrison', variant: 'Listening nook', image: 'images/paul-george-listening-nook.webp', source: 'paul-george-listening-nook.png', caption: captions.paulGeorge },
-      { subject: 'Paul McCartney and George Harrison', variant: 'Listening nook, walnut frame', image: 'images/paul-george-listening-nook-walnut.webp', source: 'paul-george-listening-nook=walnut.png', caption: captions.paulGeorge },
-      { subject: 'George Harrison and Ringo Starr', variant: 'Hallway', image: 'images/george-ringo-hallway.webp', source: 'george-ringo-hallway.png', caption: captions.georgeRingo },
-      { subject: 'George Harrison and Ringo Starr', variant: 'Hallway, oak box frame', image: 'images/george-ringo-hallway-box-oak.webp', source: 'george-ringo-hallway-box-oak.png', caption: captions.georgeRingo }
+      { subject: 'The Beatles', variant: 'Coffee shop', image: 'beatles-coffee-shop.webp', source: 'beatles-coffee-shop.png', caption: captions.beatles },
+      { subject: 'The Beatles', variant: 'Coffee shop, walnut frame', image: 'beatles-coffee-shop-walnut.webp', source: 'beatles-coffee-shop-walnut.png', caption: captions.beatles },
+      { subject: 'The Beatles', variant: 'Listening room', image: 'the-beatles-listening-room.webp', source: 'the-beatles-listening-room-test-01.png', caption: captions.beatles },
+      { subject: 'The Beatles', variant: 'Yoga room', image: 'the-beatles-yoga-dog.webp', source: 'the-beatles-yoga-dog.png', caption: captions.beatles },
+      { subject: 'The Beatles', variant: 'Yoga room, walnut box frame', image: 'beatles-yoga-dog-box-walnut.webp', source: 'beatles-yoga-dog-box-walnut.png', caption: captions.beatles },
+      { subject: 'The Beatles', variant: 'Rattan room', image: 'the-beatles-rattan-room.webp', source: 'the-beatles-yoga-rattan-cat-test-04-centered.png', caption: captions.beatles },
+      { subject: 'John Lennon', variant: 'Listening room', image: 'john-listening-room.webp', source: 'john-listening-room.png', caption: captions.john },
+      { subject: 'John Lennon', variant: 'Yoga room', image: 'john-yoga-dog.webp', source: 'john-yoga-dog.png', caption: captions.john },
+      { subject: 'Paul McCartney', variant: 'Original marketing room', image: 'paul-marketing-rework.webp', source: 'Paul Marketing Rework.png', caption: captions.paul },
+      { subject: 'Paul McCartney', variant: 'Modern art room', image: 'paul-modern-art-lovers.webp', source: 'paul-modern-art-lovers.png', caption: captions.paul },
+      { subject: 'Ringo Starr', variant: 'Approved room', image: 'ringo-approved-room.webp', source: 'Beatles_TYLS_Ringo_001_approved_image.png', caption: captions.ringo },
+      { subject: 'Paul McCartney and George Harrison', variant: 'Listening nook', image: 'paul-george-listening-nook.webp', source: 'paul-george-listening-nook.png', caption: captions.paulGeorge },
+      { subject: 'Paul McCartney and George Harrison', variant: 'Listening nook, walnut frame', image: 'paul-george-listening-nook-walnut.webp', source: 'paul-george-listening-nook=walnut.png', caption: captions.paulGeorge },
+      { subject: 'George Harrison and Ringo Starr', variant: 'Hallway', image: 'george-ringo-hallway.webp', source: 'george-ringo-hallway.png', caption: captions.georgeRingo },
+      { subject: 'George Harrison and Ringo Starr', variant: 'Hallway, oak box frame', image: 'george-ringo-hallway-box-oak.webp', source: 'george-ringo-hallway-box-oak.png', caption: captions.georgeRingo }
     ];
 
     const subjects = ['All', ...new Set(posts.map(post => post.subject))];
